@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: sans-serif;
+}
+.informacion{
+    max-width:  1200px;
+    width: 100%;
+ 
+    margin: 150px auto 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:stretch;
+   
+   
+}
+.informacion .info{
+    margin: 5px 2px;
+    width: 236px;
+    
+  
+
+   
+}
+.informacion .info  h2{
+   
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    font-size: 18px;
+  padding: 18px 0;
+    background: rgb(112, 174, 71);
+    height: 78px;
+   
+}
+.informacion .i h2{
+    padding: 0;
+    line-height: 78px;
+}
+.informacion .info p{
+    margin-top: 5px;
+    text-align: center;
+    height: 200px;
+    padding: 25px 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    background: #C4E0B2;
+}
+.informacion .info .a{
+  
+    margin-top: 2px;
+    background: #C4E0B2;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+   
+}
+.informacion .info a{
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 2px 5px ;
+    border: 2px solid #000;
+}
+.servicios{
+    max-width:  1200px;
+    width: 100%;
+ 
+    margin: 200px auto;
+    padding: 30px 0;
+    
+background-color: rgb(255, 255, 255);
+   
+}
+.servicios div h1{
+    font-size: 40px;
+    color: rgb(247, 202, 172);
+    width: 100%;
+    text-align: center;
+}
+.servicios p{
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: center;
+}
+.servicios .div{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.servicios .div div{
+    background: rgb(237, 125, 49);
+    width: 200px;
+    height: 65px;
+text-align: center;
+margin: 5px;
+}
+
+.servicios .div div a{
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+   display: block;
+   margin: 3px 0;
+    text-decoration: none;
+
+}
+.servicios .div .i a{
+    margin: 0;
+    line-height: 65px;
+}
+
+.nosotros {
+    max-width:  1200px;
+    width: 100%;
+ 
+    margin: 200px auto;
+    padding: 30px 0;
+    
+background-color: rgb(255, 255, 255);
+}
+.nosotros .title{
+    text-align: center;
+}
+.nosotros .title h1{
+    font-size: 60px;
+    color: rgb(204, 153, 255);}
+.nosotros .content{
+    margin: 50px 0;
+}
+.nosotros .content h2{
+    color: rgb(102, 0, 102);
+    font-weight: 800;
+    font-size: 35px;
+}
+.nosotros .content p{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 25px;
+}
