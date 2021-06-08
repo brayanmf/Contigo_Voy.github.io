@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="Vistas/css/main.css">
     <link rel="stylesheet" type="text/css" href="Vistas\css\styles.css"/>
     <title>Contigo Voy</title>
 </head>
 <body>
-<?php include_once("Vistas/header.php");?>
+    <header class="header">
+        <div class="container logo-image">
+            <a href="index.php" class="logo">
+                <img src="Vistas\images\Logo_Contigo_Voy.png" alt=""/>
+            </a>
+            <span class="login-icon">
+                <a href="login.php"><img src="Vistas\images\Icono_usuario.png" alt=""/></a>
+            </span>
+            <a href="login.php" class="login-user">Iniciar sesión</a>
+        </div>
+        <div class="container logo-nav-container">
+            <span class="menu-icon"><img src="Vistas\images\Icono_menu.png" alt=""/></span>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nuestros Servicios</a></li>
+                    <li><a href="#">Talleres</a></li>
+                    <li><a href="#">Especialistas</a></li>
+                    <li><a href="#">Modalides de trabajo</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Material para ti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
    
     <main>
     <section class="slider">
@@ -113,7 +137,11 @@
 
     </section>
     </main>
-    <?php include_once("Vistas/footer.php");?>
+    <footer class="footer">
+        <div class= container>
+            <p>todos los derechos reservado</p>
+        </div>
+    </footer>
     <script src="Modelo\scripts.js"></script>
 </body>
 </html>
