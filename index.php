@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="Vistas\css\styles.css"/>
     <title>Contigo Voy</title>
 </head>
 <body>
-    <header></header>
+<?php include_once("Vistas/header.php");?>
+   
     <main>
     <section class="slider">
 
@@ -111,6 +113,7 @@
 
     </section>
     </main>
-    <footer></footer>
+    <?php include_once("Vistas/footer.php");?>
+    <script src="Modelo\scripts.js"></script>
 </body>
 </html>
